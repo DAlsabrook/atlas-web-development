@@ -5,7 +5,7 @@ Welcome to the HTML_advanced project in the `atlas_web_development` repo for Atl
 
 ## Project Overview
 
-This project will contain only html. No in line styling or css files will be added. This project is for learning how to build a basic html page. Navigation bar, banner, quote block, video list, membership section, FAQ, and a footer will be added.
+This project will contain only html. No in-line styling or css files will be added. This project is for learning how to build a basic html page from a wireframe. Navigation bar, banner, quote block, video list, membership section, FAQ, and a footer will be added.
 
 ## Getting Started
 
