@@ -146,6 +146,7 @@ header {
   padding: 1.3%;
   width: 15.5%;
   margin-top: 2%;
+  font-weight: 600;
 }
 
 .banner_pros {
@@ -159,6 +160,8 @@ header {
   margin-top: 15%;
   margin-bottom: 9%;
   font-family: "SourceSans-1";
+  font-weight: 300;
+  font-size: 2.3vw;
 }
 
 .banner_pros_title>span {
@@ -190,6 +193,7 @@ header {
   font-size: 1.3vw;
   margin: 0;
   margin-top: 5%;
+  font-weight: 900;
 }
 
 .pro>p {
@@ -197,6 +201,7 @@ header {
   font-size: 1.1vw;
   margin-top: 5%;
   text-align: center;
+  font-weight: 400;
 }
 
 .pro>p>span {
@@ -242,16 +247,19 @@ header {
   font-family: "SourceSans-3";
   margin: 0;
   margin-bottom: 2%;
+  font-weight: 400;
 }
 
 .quote_name {
   font-family: "SourceSans-5";
   margin-bottom: 1%;
+  font-weight: 700;
 }
 
 .quote_subtitle {
   font-family: "SourceSans-3i";
   margin: 0;
+  font-weight: 400;
 }
 
 .video_section {
@@ -263,12 +271,13 @@ header {
   background-color: white;
 }
 
-.video_title {
+.video_section_title {
   font-family: "SourceSans-1";
-  font-size: 2vw;
+  font-size: 2.3vw;
+  font-weight: 300;
 }
 
-.video_title>span {
+.video_section_title>span {
   font-family: "SourceSans-5";
   color: #C271FF;
 }
@@ -302,7 +311,7 @@ header {
 }
 
 .video_info {
-  width: 88%;
+  width: 85%;
   margin-left: 5%;
 }
 
@@ -315,6 +324,8 @@ header {
   font-family: "SourceSans-1";
   font-size: 1vw;
   color: rgba(7, 22, 41, 0.5);
+  font-weight: 400;
+  line-height: 1.2rem;
 }
 
 .video_author {
@@ -333,6 +344,7 @@ header {
   font-size: 1vw;
   margin-top: 2.5%;
   margin-left: 5%;
+  font-weight: 600;
 }
 
 .video_stats {
@@ -354,6 +366,7 @@ header {
   font-family: "SourceSans-4";
   color: #C271FF;
   font-size: 1vw;
+  font-weight: 600;
 }
 
 .member_section{
@@ -362,15 +375,152 @@ header {
   justify-content: center;
   align-items: center;
   color: white;
-  padding: 6%;
+  height: 35vw;
+}
+
+.member_main_title {
+  font-family: "SourceSans-1";
+  font-weight: 300;
+  font-size: 2.3vw;
+  margin-bottom: 5%;
+}
+
+.member_main_title>span {
+  font-family: "SourceSans-5";
+  font-weight: 700;
+  color: #C271FF;
 }
 
 .member_container {
   display: flex;
   flex-direction: row;
+  width: 80%;
+}
+
+.member {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.member>img {
+  width: 3vw;
+  margin-bottom: 3%;
+}
+
+.member_title {
+  font-size: 1.3vw;
+  margin-bottom: 1%;
+  font-weight: 600;
+}
+
+.member_subtitle {
+  font-size: 1vw;
+  text-align: center;
+  width: 60%;
+  font-family: "SourceSans-1";
+  font-weight: 400;
+  line-height: 1.3rem;
+}
+
+.member_button {
+  background-color: #C271FF;
+  font-family: "SourceSans-4";
+  border-radius: 50px;
+  border: none;
+  color: white;
+  box-shadow: 0px 2px 20px 0px #00000080;
+  font-size: 1vw;
+  padding: .8%;
+  width: 11%;
+  margin-top: 5%;
+  font-weight: 600;
 }
 
 .faq_section {
   background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.faq_title {
+  font-family: "SourceSans-1";
+  font-size: 4vw;
+  font-weight: 300;
+}
+
+.faq_container {
+  width: 80%;
+}
+
+.faq_container_row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-bottom: 2vw;
+}
+
+.faq {
+  width: 31%;
+  margin-bottom: 3vw;
+}
+
+.faq_question {
+  font-family: "SourceSans-5";
+  font-size: 1.2vw;
+  font-weight: 700;
+  margin-bottom: 2vw;
+}
+
+.faq_answer {
+  font-family: "SourceSans-3";
+  font-size: 1vw;
+  color: rgba(7, 22, 41, 0.5);
+  line-height: 1.6em;
+  font-weight: 400;
+}
+
+footer {
+  height: 10.5vw;
+}
+
+.footer_container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 7vw;
+}
+
+.footer_content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 75%;
+}
+
+.footer_logo {
+  width: 11vw;
+  height: 2vw;
+}
+
+.footer_links {
+  margin-right: 3.5vw;
+  margin-top: -.7vw;
+}
+.footer_links>a {
+  margin: .6vw;
+}
+
+.footer_links>a>img {
+  width: 2.1vw;
+}
+
+.footer_copyright {
+  color: rgba(255, 255, 255, .3);
+  font-size: .8vw;
+  margin-top: 4.5vw;
+  font-weight: 400;
 }
 /* FOOTER */
