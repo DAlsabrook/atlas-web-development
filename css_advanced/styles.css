@@ -186,6 +186,7 @@ header {
 .pro>img {
   width: 10vw;
   margin: 0;
+  border-radius: 50px;
 }
 
 .pro>h3 {
@@ -202,11 +203,6 @@ header {
   margin-top: 5%;
   text-align: center;
   font-weight: 400;
-}
-
-.pro>p>span {
-  font-family: "SourceSans-2";
-  font-size: .8vw;
 }
 /* MAIN BODY */
 
@@ -232,6 +228,7 @@ header {
   width: 11vw;
   height: 11vw;
   margin-right: 4%;
+  border-radius: 50px;
 }
 
 .quotes_container {
@@ -303,6 +300,8 @@ position: relative;
 .video_thumbnail {
   width: 17.5vw;
   height: auto;
+  border-top-left-radius: .2vw;
+  border-top-right-radius: .2vw;
 }
 .play_button {
   position: absolute;
@@ -337,6 +336,7 @@ position: relative;
 .video_author>img {
   width: 2vw;
   height: 2vw;
+  border-radius: 50px;
 }
 
 .video_author_name {
