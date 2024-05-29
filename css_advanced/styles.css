@@ -500,6 +500,7 @@ footer {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  align-items: center;
   width: 75%;
 }
 
@@ -508,10 +509,6 @@ footer {
   height: 2vw;
 }
 
-.footer_links {
-  margin-right: 3.5vw;
-  margin-top: -.7vw;
-}
 .footer_links>a {
   margin: .6vw;
 }
